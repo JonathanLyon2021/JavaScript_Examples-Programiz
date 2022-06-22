@@ -7,6 +7,9 @@ const person = {
 }
 
 // add a key/value pair
-person.height = 5.4;
+// person.height = 5.4;
+
+//using bracket notation
+person['height'] = 5.4;
 
 console.log(person);
