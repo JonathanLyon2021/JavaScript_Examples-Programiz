@@ -12,6 +12,10 @@ const student = {
 }
 
 // merge two objects
-const newObj = Object.assign(person, student);
+// const newObj = Object.assign(person, student);
+
+// merge two objects using spread operator
+const newObj = {...person, ...student};
+
 
 console.log(newObj);
